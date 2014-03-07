@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/bg7">
+
+    <TextView
+        android:id="@+id/user_name"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:text="@string/read_name"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/l1"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:onClick="l1"
+        android:text="@string/level1" />
+
+    <Button
+        android:id="@+id/l2"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:onClick="l2"
+        android:text="@string/level2" />
+
+    <Button
+        android:id="@+id/l3"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:onClick="l3"
+        android:text="@string/level3" />
+
+    <Button
+        android:id="@+id/l4"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:onClick="l4"
+        android:text="@string/level4" />
+
+    <Button
+        android:id="@+id/l5"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:onClick="l5"
+        android:text="@string/level5" />
+
+    <Button
+        android:id="@+id/l6"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:onClick="l6"
+        android:text="@string/level6" />
+
+    <RadioGroup
+        android:id="@+id/language"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp">
+        	<RadioButton
+	            android:id="@+id/english"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="English" 
+	            android:checked="true"
+	            android:onClick="set_eng" />
+	 
+	        <RadioButton
+	            android:id="@+id/hindi"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="Hindi" 
+	            android:onClick="set_hind"/>
+    </RadioGroup>
+
+</LinearLayout>

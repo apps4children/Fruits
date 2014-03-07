@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:orientation="vertical"
+    android:background="@drawable/bg5">
+    
+    <Button
+        android:id="@+id/student"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/teacher"
+        android:layout_alignRight="@+id/teacher"
+        android:layout_centerVertical="true"
+        android:onClick="levels"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:text="Play"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/teacher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/student"
+        android:layout_centerInParent="true"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:gravity="center"
+        android:text="Score"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:onClick="showrecord" />
+
+    <Button
+        android:id="@+id/help"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/teacher"
+        android:layout_alignRight="@+id/teacher"
+        android:layout_below="@+id/teacher"
+        android:layout_centerVertical="true"
+        android:onClick="help"
+        android:text="Help"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

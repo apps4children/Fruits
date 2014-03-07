@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+    <string name="app_name">Fruits</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="student">Play</string>
+    <string name="teacher">Record</string>
+    <string name="read_name">Welcome</string>
+    <string name="level1">Learning</string>
+    <string name="level2">Fruit to Fruit</string>
+    <string name="level3">Name to Name</string>
+    <string name="level4">Fill The Bucket</string>
+    <string name="level5">Name to Fruit</string>
+    <string name="level6">Fruit to Name</string>
+    <string name="level7">7</string>
+    <string name="level8">8</string>
+    <string name="level9">9</string>
+    <string name="level10">10</string>
+    <string name="well_done">Well Done!!!</string>
+    <string name="f1">fruit 1</string>
+    <string name="f2">fruit 2</string>
+    <string name="f3">fruit 3</string>
+    <string name="f4">fruit 4</string>
+    <string name="f5">fruit 5</string>
+    <string name="next">Next</string>
+    <color name="white">#FFFFFF</color>
+    <color name="orange">#FFFFF7</color>
+</resources>

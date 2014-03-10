@@ -6,7 +6,7 @@ Fruits
 2.Institute: IIT Kanpur
 
 
-About
+App Description
 
 Fruits is a learning app for children to learn about the names of the fruits and identify the fruits.
 Through this app, the children will learn to identify the fruits with their spellings, match the spelling  with the fruits and match fruit with the shape of the fruit.
